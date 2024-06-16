@@ -6,8 +6,6 @@ class Student:
     
     def display_info(self):
         return f"Name: {self.name}, Age: {self.age}, Grade: {self.grade}"
-
-# Example of class usage:
 student = Student(name="Ivan", age=30, grade="2")
 print(student.display_info())  # Output: Name: Ivan, Age: 30, Grade: 2
 
